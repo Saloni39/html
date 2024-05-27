@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index_more.html">Workout Tracker</a></li>
+        </ul>
+    </nav>
+    <header id="workout-tracker">
+        <h1>Workout Tracker</h1>
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </header>
+    <main>
+        <section class="workout-options">
+            <h2>Choose Your Workout</h2>
+            <ul>
+                <li>Cardio</li>
+                <li>Strength Training</li>
+                <li>Yoga/Pilates</li>
+            </ul>
+        </section>
+
+        <section class="login">
+            <h2>Login</h2>
+            <form>
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="login-email" required><br><br>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required><br><br>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section class="registration">
+            <h2>New User? Register Here</h2>
+            <form id="registration-form">
+                <label for="reg-name">Name:</label>
+                <input type="text" id="reg-name" name="reg-name" required><br><br>
+                <label for="reg-email">Email:</label>
+                <input type="email" id="reg-email" name="reg-email" required><br><br>
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" name="reg-password" required><br><br>
+                <label for="join-date">Year of Joining:</label>
+                <select id="join-date" name="join-date" required>
+                    
+                    <option value="">Select Year</option>
+                </select><br><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Connect with us on social media:</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
